@@ -51,7 +51,7 @@
                                 <td>{{$data->history}}</td>
                                 <td>{{$data->term}}</td>
                                 <td>{{$data->total}}</td>
-                                <td>{{$data->total}}</td>
+                                <td>{{$data->created_at->format('M D,Y H:i A')}}</td>
                                 <td>
                                     <a href="{{route('mark.edit',['id'=>Crypt::encrypt($data->id)])}}">Edit</a>
                                     <a href="javascript:void(0);" id="deleteMarkBtn" data-id="{{Crypt::encrypt($data->id)}}">Delete</a>
