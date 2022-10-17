@@ -62,3 +62,30 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+<!--  -->
+
+## Installation
+
+git clone https://github.com/jibinjose1/fingent.git
+composer install
+cp .env.example .env
+
+## Then create the necessary database.
+
+create database fingent
+
+## tables
+
+1)teachers
+2)students
+3)marks
+
+## And run the initial migrations
+
+php artisan migrate
+
+## add values into teachers table
+
+INSERT INTO `teachers` (`id`, `name`, `created_at`, `updated_at`) VALUES (1, 'Jibin jose', NULL, NULL);
+
