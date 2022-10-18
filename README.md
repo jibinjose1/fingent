@@ -73,7 +73,7 @@ cp .env.example .env
 
 ## Then create the necessary database.
 
-create database fingent
+create database studentdb
 
 ## tables
 
